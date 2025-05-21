@@ -32,3 +32,56 @@ Make sure Python 3.x is installed, then install required libraries:
 
 ```bash
 pip install easyocr opencv-python
+
+🧪 Usage Instructions
+Save your handwritten answer as an image (.png, .jpg, etc.).
+
+Replace the image_path variable with your image file name:
+
+python
+Copy
+Edit
+image_path = "your_image_name.png"
+Run the script:
+
+bash
+Copy
+Edit
+python ocr_extractor.py
+Output will show extracted and formatted text from the image.
+
+🛠️ Ongoing Changes
+Improve text recognition from real paper paragraphs and longer answers.
+
+Integrate ChatGPT to validate answer correctness using OpenAI's API.
+
+Enhance the script to accept file uploads (PDF/image) instead of hardcoded image paths.
+
+Store previous extraction results and evaluated answers in a database.
+
+🔮 Future Scope
+✍️ Answer Evaluation Using ChatGPT: Extracted answers will be evaluated using OpenAI's API for correctness and completeness.
+
+🖼️ Support File Uploads: Users will be able to upload files (images, PDFs) through a frontend UI.
+
+💬 API Integration: A REST API will be developed to expose the OCR and answer evaluation as a service.
+
+🧾 Database Integration: Store extracted answers, evaluations, and scores for future reference.
+
+🌐 Improved UI: User-friendly frontend to upload images, view results, and track performance.
+
+📊 Analytics & Dashboard: Show evaluation scores, strengths/weaknesses, and progress over time.
+
+🧠 Example Output
+pgsql
+Copy
+Edit
+Formatted Extracted Text:
+1. Python is an interpreted language.
+It supports object-oriented and procedural programming.
+2. Machine Learning is a part of Artificial Intelligence.
+🤝 Contributing
+Want to help? Feel free to fork this repository, make enhancements, and submit a pull request.
+
+📄 License
+This project is licensed under the MIT License – see the LICENSE file for details.
