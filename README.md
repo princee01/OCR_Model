@@ -1,26 +1,21 @@
 # 🧠 OCR with Smart Evaluation
 
 ## 📖 Overview
+This project is an Optical Character Recognition (OCR) tool designed to extract questions and their respective handwritten answers from images using EasyOCR and OpenCV. After extracting the content, it leverages an AI-powered answer evaluation system via API integration to automatically check the correctness and quality of answers.
 
-This project is an Optical Character Recognition (OCR) tool that extracts handwritten English text from images using EasyOCR and OpenCV. The extracted text is formatted to preserve numbered answers and paragraphs, making it suitable for academic evaluations.
-
-It is currently being enhanced to integrate OpenAI’s ChatGPT for automated answer correctness checking and will include support for file uploads and answer history storage using a database.
+Based on the AI evaluation, the system assigns grades or scores to each answer, enabling an automated and efficient academic assessment workflow. The project also supports storing answer history and evaluation results for future reference.
 
 ## 🚀 Features
+✅ Handwritten Text Extraction: Uses EasyOCR to recognize handwritten text from answer sheets or paper.
 
-- ✅ **Handwritten Text Extraction**: Uses EasyOCR to recognize handwritten text from answer sheets or paper.
-- ✅ **Smart Formatting**: Automatically formats numbered points for cleaner output.
-- ⚙️ **Work in Progress**:
-  - Paragraph handling improvements.
-  - ChatGPT integration to validate answer correctness.
-  - File upload support (PDF/Image).
-  - Answer storage in a database for record-keeping.
-- 🔮 **Future Scope**:
-  - Evaluate answers using OpenAI API (ChatGPT).
-  - Provide API-based access for frontend apps.
-  - Improved UI for uploading and viewing results.
-  - Support extracting answers from PDFs, images, or scanned sheets.
-  - Historical data view & analytics for users/students.
+✅ Smart Formatting: Automatically formats numbered points for cleaner output.
+
+✅ Smart Evaluation & Answer Validation: Automatically evaluates and validates answers for correctness and completeness using the integrated AI system.
+
+✅ File Upload Support: Accepts images and PDFs for processing.
+
+✅ Answer Storage: Stores extracted answers and evaluations in a database for record-keeping.
+
 
 ## 🧰 Requirements
 
@@ -50,18 +45,19 @@ pip install easyocr opencv-python
 ## 🛠️ Ongoing Changes
 
 1. Improve text recognition from real paper paragraphs and longer answers.
-2. Integrate ChatGPT to validate answer correctness using OpenAI's API.
-3. Enhance the script to accept file uploads (PDF/image) instead of hardcoded image paths.
-4. Store previous extraction results and evaluated answers in a database.
+2. Enhance the script to accept file uploads (PDF/image) instead of hardcoded image paths.
+3. Store previous extraction results and evaluated answers in a database.
 
 ## 🔮 Future Scope
+🖼️ Support File Uploads: Users will be able to upload files (images, PDFs) through a frontend UI.
 
-- ✍️ **Answer Evaluation Using ChatGPT**: Extracted answers will be evaluated using OpenAI's API for correctness and completeness.
-- 🖼️ **Support File Uploads**: Users will be able to upload files (images, PDFs) through a frontend UI.
-- 💬 **API Integration**: A REST API will be developed to expose the OCR and answer evaluation as a service.
-- 🧾 **Database Integration**: Store extracted answers, evaluations, and scores for future reference.
-- 🌐 **Improved UI**: User-friendly frontend to upload images, view results, and track performance.
-- 📊 **Analytics & Dashboard**: Show evaluation scores, strengths/weaknesses, and progress over time.
+🧾 Database Integration: Store extracted answers, evaluations, and scores for future reference.
+
+🌐 Improved UI: User-friendly frontend to upload images, view results, and track performance.
+
+📊 Analytics & Dashboard: Show evaluation scores, strengths/weaknesses, and progress over time.
+
+
 
 ## 📥 Example Output
 
