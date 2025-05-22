@@ -65,12 +65,8 @@ pip install easyocr opencv-python
 
 ## 📥 Example Output
 
-```
-Formatted Extracted Text:
-1. Python is an interpreted language.
-It supports object-oriented and procedural programming.
-2. Machine Learning is a part of Artificial Intelligence.
-```
+![Screenshot 2025-05-22 125718](https://github.com/user-attachments/assets/d0890c2b-1d3a-4d6d-a227-37368f7d59e5)
+
 
 ## 🤝 Contributing
 
