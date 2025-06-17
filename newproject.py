@@ -45,7 +45,7 @@ def extract_qa_pairs(text):
     return qa_pairs
 
 def evaluate_with_huggingface(question, answer):
-    HF_TOKEN = "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"
+    HF_TOKEN = "write your own hugging face API here....."
     API_URL = "https://api-inference.huggingface.co/models/HuggingFaceH4/zephyr-7b-beta"
 
     headers = {
