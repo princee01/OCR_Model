@@ -14,6 +14,8 @@ Based on the AI evaluation, the system assigns grades or scores to each answer, 
 
 ✅ File Upload Support: Accepts images and PDFs for processing.
 
+✅ User Interface: Uses Streamlit python library for better user interface.
+
 ✅ Answer Storage: Stores extracted answers and evaluations in a database for record-keeping.
 
 
@@ -35,7 +37,7 @@ pip install easyocr opencv-python
    ```
 4. Run the script:
    ```bash
-   python ocr_extractor.py
+   python your_file_name.py
    ```
 5. The script will:
    - Extract handwritten text using EasyOCR.
@@ -47,6 +49,7 @@ pip install easyocr opencv-python
 1. Improve text recognition from real paper paragraphs and longer answers.
 2. Enhance the script to accept file uploads (PDF/image) instead of hardcoded image paths.
 3. Store previous extraction results and evaluated answers in a database.
+4. Ehance user interface.
 
 ## 🔮 Future Scope
 🖼️ Support File Uploads: Users will be able to upload files (images, PDFs) through a frontend UI.
