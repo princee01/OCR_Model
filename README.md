@@ -61,7 +61,9 @@ pip install easyocr opencv-python
 
 ## 📥 Example Output
 
-![Screenshot 2025-05-22 125718](https://github.com/user-attachments/assets/d0890c2b-1d3a-4d6d-a227-37368f7d59e5)
+"C:\Users\HP\OneDrive\Pictures\Screenshots\Screenshot 2025-06-17 165846.png"
+"C:\Users\HP\OneDrive\Pictures\Screenshots\Screenshot 2025-06-17 165911.png"
+"C:\Users\HP\OneDrive\Pictures\Screenshots\Screenshot 2025-06-17 165934.png"
 
 
 ## 🤝 Contributing
